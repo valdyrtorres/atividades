@@ -64,7 +64,7 @@
 		         <td><form:input path="nota" /></td>
 	          </tr>
 	          <tr>
-		         <td><input type="submit" value="New" /></td>
+		         <td><input type="submit" value="Inserir atividade" /></td>
 		         <td></td>
 	          </tr>
            </tbody>
