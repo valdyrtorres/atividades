@@ -8,11 +8,11 @@
     <title>Atividades</title>
     
     <!-- Bootstrap core CSS -->
-    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="resources/css/starter-template.css" rel="stylesheet">
-    <link href="resources/css/menucustomizado.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/css/starter-template.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath}/resources/css/menucustomizado.css" rel="stylesheet">
 </head>
 <body>
     <p>
@@ -21,7 +21,7 @@
     
     <!-- Inicio -->
     
-      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -34,9 +34,9 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="#">Inicio</a></li>
             <li><a href="${pageContext.request.contextPath}/atividade/new.html">Criar Atividade</a></li>
-            <li><a href="${pageContext.request.contextPath}/atividade/new.html">Criar Atividade</a></li>
+            <li><a href="${pageContext.request.contextPath}/atividade/list.html">Listar Atividades</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#contato">Contato</a></li>
           </ul>
@@ -48,7 +48,7 @@
 
       <div class="starter-template">
         <h1>Organizador de atividades</h1>
-        <p class="lead">Cadastre suas atividades.<br> 
+        <p class="lead">Registre suas atividades.<br> 
         e aproveite melhor sua vida.</p>
       </div>
 
@@ -60,6 +60,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
 </body>
 </html>
