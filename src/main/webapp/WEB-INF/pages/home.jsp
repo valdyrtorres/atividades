@@ -15,16 +15,13 @@
     <link href="resources/css/menucustomizado.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Atividades</h1>
     <p>
     ${message}<br/>
-    <a href="${pageContext.request.contextPath}/atividade/new.html">Criar Atividade</a><br/>
-    <a href="${pageContext.request.contextPath}/atividade/list.html">Listar Atividades</a><br/>
     </p>
     
     <!-- Inicio -->
     
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -33,13 +30,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Atividades</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="${pageContext.request.contextPath}/atividade/new.html">Criar Atividade</a></li>
+            <li><a href="${pageContext.request.contextPath}/atividade/new.html">Criar Atividade</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -48,8 +47,9 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <h1>Organizador de atividades</h1>
+        <p class="lead">Cadastre suas atividades.<br> 
+        e aproveite melhor sua vida.</p>
       </div>
 
     </div><!-- /.container -->
