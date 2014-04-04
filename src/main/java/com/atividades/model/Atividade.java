@@ -7,8 +7,10 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="atividade")
-public class Atividade {
+public class Atividade implements java.io.Serializable {
 	
+	private static final long serialVersionUID = 1L;
+
 	@Id
 	@GeneratedValue
 	private Integer id;
